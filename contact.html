@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Alain Enterprises | Real Estate Sector B-17 Islamabad</title>
+  <meta name="description" content="Get in touch with Alain Enterprises. Contact our offices in Sector B-17 Islamabad or Turkey for inquiries about villas, shopping malls, and properties.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo" onclick="window.location.href='index.html'">
+        <img src="images/logo.png" alt="Alain Enterprises Logo">
+      </div>
+      <button class="menu-btn" aria-label="Toggle Navigation">
+        <i class="ion-navicon"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="projects.html">Current Projects</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- INNER HERO -->
+  <section class="parallax-banner" style="background-image: url('images/slide1.jpg'); padding: 180px 20px 100px 20px;">
+    <div class="parallax-content reveal">
+      <h1 style="color: #ffffff;"><span>CONTACT US</span></h1>
+      <p style="color: var(--text-secondary); font-size: 1.25rem; margin-top: 15px; font-weight: 300;">Have questions? Our real estate planners and agents are ready to assist you.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT CONTAINER -->
+  <section class="section">
+    <div class="contact-container reveal">
+      
+      <!-- CONTACT DETAILS & MAP -->
+      <div>
+        <h2 class="section-title">Get In Touch</h2>
+        <p style="margin-bottom: 40px;">Whether you're looking to purchase a shop in Sapphire Shopping Mall, configure an eco-friendly Alain Smart Home, or invest in Turkish citizenship-ready properties, we are here to walk you through every step.</p>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 30px; margin-bottom: 40px;">
+          <!-- Address -->
+          <div style="display: flex; gap: 20px; align-items: flex-start;">
+            <i class="ion-ios-location-outline" style="font-size: 2.2rem; color: var(--color-accent); margin-top: -5px;"></i>
+            <div>
+              <h3 style="margin-bottom: 5px; font-size: 1.1rem; text-transform: uppercase;">Office Address</h3>
+              <p>Office # 13 & 14 Ground Floor, Sapphire Arcade, A-1 Road, Block B, Sector B-17 MPCHS, Islamabad, Pakistan.</p>
+            </div>
+          </div>
+          
+          <!-- Phones -->
+          <div style="display: flex; gap: 20px; align-items: flex-start;">
+            <i class="ion-ios-telephone-outline" style="font-size: 2.2rem; color: var(--color-teal-light); margin-top: -5px;"></i>
+            <div>
+              <h3 style="margin-bottom: 5px; font-size: 1.1rem; text-transform: uppercase;">Call / WhatsApp</h3>
+              <p><strong>Pakistan:</strong> +92-321-5155491, +92-335-4000200<br>
+              <strong>Turkey:</strong> +90 534 324 25 51</p>
+            </div>
+          </div>
+          
+          <!-- Emails -->
+          <div style="display: flex; gap: 20px; align-items: flex-start;">
+            <i class="ion-ios-email-outline" style="font-size: 2.2rem; color: var(--color-accent); margin-top: -5px;"></i>
+            <div>
+              <h3 style="margin-bottom: 5px; font-size: 1.1rem; text-transform: uppercase;">Email Addresses</h3>
+              <p>info@alainenterprises.com<br>
+              alainenterprises@yahoo.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Google Map Iframe Wrapper -->
+        <div class="map-wrapper">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6639.8507909913!2d72.82821892835798!3d33.68499590030101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfa2495cc4330d%3A0x59c4091a93683905!2sBlock+B%2C+Islamabad%2C+Pakistan!5e0!3m2!1sen!2s!4v1521712629558" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <!-- GLASS CONTACT FORM -->
+      <div>
+        <div class="glass-card" style="border-top: 4px solid var(--color-accent);">
+          <h3 style="margin-bottom: 25px; font-family: var(--font-heading); text-transform: uppercase; font-size: 1.5rem;">Send a Message</h3>
+          
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Muhammad Ali" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="e.g. ali@example.com" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="e.g. +92 300 1234567">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your inquiry here..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 15px;">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4 style="color: #ffffff;">Alain Enterprises</h4>
+        <p style="margin-top: 15px; font-size: 0.9rem;">Pioneering real estate development in Islamabad and Turkey. We build premium shopping malls, luxury smart villas, and commercial arcades with focus on design and international standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #ffffff;">Quick Links</h4>
+        <ul class="footer-links" style="margin-top: 15px;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Featured Projects</a></li>
+          <li><a href="properties.html">Property Listings</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #ffffff;">Our Projects</h4>
+        <ul class="footer-links" style="margin-top: 15px;">
+          <li><a href="projects.html">Sapphire Shopping Mall</a></li>
+          <li><a href="projects.html">Alain Smart Homes</a></li>
+          <li><a href="projects.html">Alain Multi Villas</a></li>
+          <li><a href="projects.html">Arfat Inşaat Turkey</a></li>
+          <li><a href="projects.html">Sapphire & Paragon Arcades</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #ffffff;">Contact Info</h4>
+        <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-secondary);">
+          <i class="ion-ios-location-outline" style="color: var(--color-accent);"></i> Office # 13 & 14 Ground Floor, Sapphire Arcade, Sector B-17, Islamabad, Pakistan.<br><br>
+          <i class="ion-ios-telephone-outline" style="color: var(--color-accent);"></i> +92-321-5155491<br>
+          <i class="ion-ios-email-outline" style="color: var(--color-accent);"></i> info@alainenterprises.com
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/Alainmultivillas/" target="_blank" class="social-icon" aria-label="Facebook"><i class="ion-social-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Alain Enterprises. All Rights Reserved.</p>
+      <p>Developed with excellence.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

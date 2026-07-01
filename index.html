@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alain Enterprises | Premium Real Estate & Construction Islamabad</title>
+  <meta name="description" content="Alain Enterprises is a premier real estate developer and planner in Sector B-17, Islamabad. Discover luxury shopping malls, smart homes, and international property investments.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Ionicons for beautiful icons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo" onclick="window.location.href='index.html'">
+        <img src="images/logo.png" alt="Alain Enterprises Logo">
+      </div>
+      <button class="menu-btn" aria-label="Toggle Navigation">
+        <i class="ion-navicon"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="projects.html">Current Projects</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO CAROUSEL -->
+  <section class="hero">
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: url('images/slide1.jpg');"></div>
+      <div class="slide" style="background-image: url('images/slide2.jpg');"></div>
+      <div class="slide" style="background-image: url('images/slide3.jpg');"></div>
+      <div class="slide" style="background-image: url('images/slide4.jpg');"></div>
+      <div class="slide" style="background-image: url('images/slide5.jpg');"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-tagline">Pioneering Luxury & Excellence</div>
+      <h1><span>ALAIN ENTERPRISES</span></h1>
+      <p class="hero-desc">Pioneering the modern property market of Islamabad with exclusive architectural designs, premium villas, and high-yield commercial projects.</p>
+      <div class="btn-group">
+        <a href="projects.html" class="btn btn-primary">Explore Projects</a>
+        <a href="contact.html" class="btn btn-secondary">Contact Consultant</a>
+      </div>
+    </div>
+
+    <!-- QUICK SEARCH WIDGET -->
+    <div class="search-widget">
+      <div class="search-field">
+        <label for="widget-search">Search Keyword</label>
+        <input type="text" id="widget-search" placeholder="e.g. B-17, Mall, Villa">
+      </div>
+      <div class="search-field">
+        <label for="widget-category">Category</label>
+        <select id="widget-category">
+          <option value="all">All Categories</option>
+          <option value="villa">Villa / Homes</option>
+          <option value="apartment">Apartment / Retail</option>
+          <option value="townhouse">Townhouse / Office</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label for="widget-type">Listing Type</label>
+        <select id="widget-type">
+          <option value="all">For Sale & Rent</option>
+          <option value="sale">For Sale</option>
+          <option value="rent">For Rent</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label for="widget-budget">Max Budget</label>
+        <select id="widget-budget">
+          <option value="1000000">No Limit</option>
+          <option value="500000">Under $500,000</option>
+          <option value="300000">Under $300,000</option>
+          <option value="100000">Under $100,000</option>
+        </select>
+      </div>
+      <button class="btn-search" onclick="window.location.href='properties.html'" aria-label="Search Properties">
+        <i class="ion-ios-search-strong"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- WELCOME SECTION -->
+  <section class="section">
+    <div class="grid-2 reveal">
+      <div>
+        <h2 class="section-title">Welcome to Alain Enterprises</h2>
+        <p style="margin-bottom: 20px;"><strong>Al-Ain Enterprises</strong>, established a decade ago, has set alight the bustling property market of Islamabad with innovation and exclusive design at its core focus. In contrast to competitors who follow the tedious path of emulation, we have constantly pursued excellence through both novel design and the incorporation of international quality standards.</p>
+        <p style="margin-bottom: 30px;">From high-end commercial malls on main GT Road to smart eco-villas in cooperative housing societies, we deliver value at every level.</p>
+        <ul class="bullet-list">
+          <li>Property Agent Services</li>
+          <li>Builders & Planners</li>
+          <li>Property Marketing specialists</li>
+          <li>Valuations of Property & Land</li>
+          <li>Project Managers & Overseers</li>
+          <li>Turkish Citizenship Consultants</li>
+        </ul>
+      </div>
+      <div style="position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-premium);">
+        <img src="images/slide5.jpg" alt="Alain Projects Showcase" style="width: 100%; display: block; object-fit: cover; height: 450px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- PARALLAX SECTION -->
+  <section class="parallax-banner" style="background-image: url('images/smart_homes.jpg');">
+    <div class="parallax-content reveal">
+      <h2 style="font-size: 2.5rem; margin-bottom: 15px; color: var(--color-accent);">ALAIN SMART HOMES</h2>
+      <p style="color: #ffffff; font-size: 1.2rem; margin-bottom: 30px; font-weight: 300;">A lovely addition for luxury living in the fast-paced Capital. Energy-efficient smart designs, breathable open spaces, and premium finishes in Sector B-17, Islamabad.</p>
+      <a href="projects.html" class="btn btn-primary">Learn More</a>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS TEASER -->
+  <section class="section">
+    <div style="text-align: center;" class="reveal">
+      <h2 class="section-title center">Our Featured Projects</h2>
+      <p style="max-width: 600px; margin: 20px auto 50px auto;">We specialize in developing premium residential and commercial spaces that yield high returns and elevate lifestyles.</p>
+    </div>
+    
+    <div class="grid-3">
+      <!-- Sapphire Shopping Mall -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <span class="project-badge">Wah Model Town</span>
+          <img src="images/sapphire_mall.jpg" alt="Sapphire Shopping Mall">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Sapphire Shopping Mall</h3>
+          <p class="project-desc">A retail landmark featuring central AC, capsule lifts, rooftop food courts, and 24/7 power backup. The ultimate business destination.</p>
+          <div class="project-features-preview">
+            <span><i class="ion-ios-checkmark-empty"></i> Backup Generator</span>
+            <span><i class="ion-ios-checkmark-empty"></i> Escalators</span>
+          </div>
+          <a href="projects.html" class="btn btn-secondary" style="text-align: center;">View Details</a>
+        </div>
+      </div>
+
+      <!-- Alain Smart Homes -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <span class="project-badge">Sector B-17</span>
+          <img src="images/smart_homes.jpg" alt="Alain Smart Homes">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Alain Smart Homes</h3>
+          <p class="project-desc">Unique elevations, environmental planning with zero waste, and efficient air ventilation for high-end luxury villa living.</p>
+          <div class="project-features-preview">
+            <span><i class="ion-ios-checkmark-empty"></i> Smart Layout</span>
+            <span><i class="ion-ios-checkmark-empty"></i> Energy Efficient</span>
+          </div>
+          <a href="projects.html" class="btn btn-secondary" style="text-align: center;">View Details</a>
+        </div>
+      </div>
+
+      <!-- Arfat Insaat -->
+      <div class="project-card reveal">
+        <div class="project-img-wrap">
+          <span class="project-badge">Istanbul, Turkey</span>
+          <img src="images/arfat_insaat.jpg" alt="Arfat Insaat">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Arfat Inşaat</h3>
+          <p class="project-desc">Secured properties in Turkey pre-approved for the Turkish Citizenship by Investment Program ($400,000+ USD minimum investment).</p>
+          <div class="project-features-preview">
+            <span><i class="ion-ios-checkmark-empty"></i> Citizenship Ready</span>
+            <span><i class="ion-ios-checkmark-empty"></i> Marina Access</span>
+          </div>
+          <a href="projects.html" class="btn btn-secondary" style="text-align: center;">View Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4 style="color: #ffffff;">Alain Enterprises</h4>
+        <p style="margin-top: 15px; font-size: 0.9rem;">Pioneering real estate development in Islamabad and Turkey. We build premium shopping malls, luxury smart villas, and commercial arcades with focus on design and international standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #ffffff;">Quick Links</h4>
+        <ul class="footer-links" style="margin-top: 15px;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Featured Projects</a></li>
+          <li><a href="properties.html">Property Listings</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #ffffff;">Our Projects</h4>
+        <ul class="footer-links" style="margin-top: 15px;">
+          <li><a href="projects.html">Sapphire Shopping Mall</a></li>
+          <li><a href="projects.html">Alain Smart Homes</a></li>
+          <li><a href="projects.html">Alain Multi Villas</a></li>
+          <li><a href="projects.html">Arfat Inşaat Turkey</a></li>
+          <li><a href="projects.html">Sapphire & Paragon Arcades</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #ffffff;">Contact Info</h4>
+        <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-secondary);">
+          <i class="ion-ios-location-outline" style="color: var(--color-accent);"></i> Office # 13 & 14 Ground Floor, Sapphire Arcade, Sector B-17, Islamabad, Pakistan.<br><br>
+          <i class="ion-ios-telephone-outline" style="color: var(--color-accent);"></i> +92-321-5155491<br>
+          <i class="ion-ios-email-outline" style="color: var(--color-accent);"></i> info@alainenterprises.com
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/Alainmultivillas/" target="_blank" class="social-icon" aria-label="Facebook"><i class="ion-social-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Alain Enterprises. All Rights Reserved.</p>
+      <p>Developed with excellence.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
